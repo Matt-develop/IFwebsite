@@ -1,3 +1,11 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
 
 header
 {
@@ -5,11 +13,13 @@ header
     width: 3000px;
     height: 60px;
 }
+
 .menu
 {
     width: 50%;
     align-items: right;
 }
+
 .center 
 {
     display: flex;
@@ -60,13 +70,6 @@ header
 #nsei1:hover{
     background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
 }
-body
-{
-    display: flex;
- background-color: rgb(255, 255, 255);
- 
-
-}
 
 @keyframes moveQuadrado1 {
     0% {
@@ -90,7 +93,6 @@ body
     }
 
 }
-
 @keyframes moveQuadrado3 {
     0% {
         top: 0;
@@ -102,9 +104,9 @@ body
     }
 
 }
+
 .quadrado1 
 {
-
 width: 180px;
 height: 180px;
 background-color: rgb(10, 90, 10);
@@ -114,11 +116,8 @@ position: absolute;
 animation: moveQuadrado1 3s ease-in-out forwards;
 }
 
-
-
 .quadrado2 
 {
-
 width: 60px;
 height: 60px;
 background-color: green;
@@ -126,27 +125,21 @@ border-radius: 10px;
 position: absolute;
 border: 4px solid white;
 animation: moveQuadrado2 2s ease-in-out forwards;
-
-
 }
 
 .quadrado3
 {
-
 width: 80px;
 height: 80px;
 background-color: green;
 border-radius: 10px;
 position: absolute;
 border: 4px solid white;
-
 animation: moveQuadrado3 4s ease-in-out forwards;
-
 }
 
 .container1 
 {
-
 max-width: 600px;
 padding: 20px;
 margin: 10px;
@@ -164,13 +157,10 @@ background-color: white;
     position: absolute;
     max-width: 50%;
     height: auto;
-
 }
 
-#curso
-{
+#curso {
 word-wrap: break-word;
-
 }
 
 @keyframes movecurso {
@@ -188,33 +178,8 @@ word-wrap: break-word;
         right: 700px;
         /* Valores Posteriores ao Teste */
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Estilo para o cabeçalho */
-
 /* Estilo para o botão de ajuda */
 .ajuda-button {
     background-color: #007bff; /* Cor de fundo azul para o botão de ajuda */
