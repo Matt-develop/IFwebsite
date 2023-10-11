@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Circulo de Pop Ups</title>
+</head>
+<body>
+    
+    <div class="menu">
+        <div class="toggle"><img src="../imagens/icones/star.svg"></div>
+
+        <li style="--i:0;">
+            <a href="#"><img src="../imagens/icones/star.svg"></a>
+        </li>
+        <li style="--i:1;">
+            <a href="#"><img src="../imagens/icones/star.svg"></a>
+        </li>
+        <li style="--i:2;">
+            <a href="#"><img src="../imagens/icones/star.svg"></a>
+        </li>
+        <li style="--i:3;">
+            <a href="#"><img src="../imagens/icones/star.svg"></a>
+        </li>
+        <li style="--i:4;">
+            <a href="#"><img src="../imagens/icones/star.svg"></a>
+        </li>
+    </div>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick = function(){
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
