@@ -1,0 +1,224 @@
+
+header
+{
+    background-color: rgb(47, 73, 47);
+    width: 3000px;
+    height: 60px;
+}
+.menu
+{
+    width: 50%;
+    align-items: right;
+}
+.center 
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+#nsei1
+{
+    background-color: #007bff; /* Cor de fundo azul para o botão de ajuda */
+    color: white; /* Cor do texto no botão de ajuda */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nsei1:hover{
+    background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+}
+
+#nsei2
+{
+    background-color: #ff6156; /* Cor de fundo azul para o botão de ajuda */
+    color: white; /* Cor do texto no botão de ajuda */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nsei1:hover{
+    background-color: #5e0000; /* Cor de fundo azul mais escura ao passar o mouse */
+}
+
+#nsei3
+{
+    background-color: #007bff; /* Cor de fundo azul para o botão de ajuda */
+    color: white; /* Cor do texto no botão de ajuda */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nsei1:hover{
+    background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+}
+body
+{
+    display: flex;
+ background-color: rgb(255, 255, 255);
+ 
+
+}
+
+@keyframes moveQuadrado1 {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    100% {
+        top: 110px; 
+        left: 130px; 
+    }
+
+}
+@keyframes moveQuadrado2 {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    100% {
+        top: 95px; 
+        left: 100px; 
+    }
+
+}
+
+@keyframes moveQuadrado3 {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    100% {
+        top: 260px; 
+        left: 250px; 
+    }
+
+}
+.quadrado1 
+{
+
+width: 180px;
+height: 180px;
+background-color: rgb(10, 90, 10);
+border-radius: 10px;
+margin: 10px;
+position: absolute;
+animation: moveQuadrado1 3s ease-in-out forwards;
+}
+
+
+
+.quadrado2 
+{
+
+width: 60px;
+height: 60px;
+background-color: green;
+border-radius: 10px;
+position: absolute;
+border: 4px solid white;
+animation: moveQuadrado2 2s ease-in-out forwards;
+
+
+}
+
+.quadrado3
+{
+
+width: 80px;
+height: 80px;
+background-color: green;
+border-radius: 10px;
+position: absolute;
+border: 4px solid white;
+
+animation: moveQuadrado3 4s ease-in-out forwards;
+
+}
+
+.container1 
+{
+
+max-width: 600px;
+padding: 20px;
+margin: 10px;
+border: 2px solid rgb(0, 71, 38);
+border-radius: 5px;
+position: absolute;
+right: 400px;
+top: 400px;
+background-color: white;
+}
+
+#imgcurso 
+{
+    animation: movecurso 3s ease-in-out forwards;
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+
+}
+
+#curso
+{
+word-wrap: break-word;
+
+}
+
+@keyframes movecurso {
+    0% {
+        top: 0;
+        right: 0;
+    }
+    100% {
+        top: 100px; 
+        right: 400px; 
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para o cabeçalho */
+
+/* Estilo para o botão de ajuda */
+.ajuda-button {
+    background-color: #007bff; /* Cor de fundo azul para o botão de ajuda */
+    color: white; /* Cor do texto no botão de ajuda */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ajuda-button:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+}
