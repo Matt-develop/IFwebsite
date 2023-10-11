@@ -179,8 +179,14 @@ word-wrap: break-word;
         right: 0;
     }
     100% {
+        /*
         top: 100px; 
-        right: 400px; 
+        right: 400px;
+        Valores Anteriores ao Teste
+        */
+        top: 30px;
+        right: 700px;
+        /* Valores Posteriores ao Teste */
     }
 
 }
