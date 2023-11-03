@@ -1,18 +1,19 @@
 .slider {
 
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 60vw;
+    height: 480px;
     overflow: hidden;
     background-color: gray;
     border-radius: 15px;
-    margin-top: 45vh;
+    margin-top: 42vh;
+    box-shadow: 1px 3px 5px black;
 }
 
 .slides {
 
     width: 400%;
-    height: 400px;
+    height: 480px;
     display: flex;
     cursor: pointer;
 }
@@ -31,20 +32,21 @@
 
 .slide img {
 
-    width: 800px;
+    width: auto;
+    height: 480px
 }
 
 .manual-navigation {
 
     position: absolute;
-    width: 800px;
+    width: 60vw;
     margin-top: -40px;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn {
-
+ 
     border: 2px solid #fff;
     padding: 5px;
     border-radius: 10px;
@@ -86,8 +88,8 @@
 
 .navigation-auto {
     position: absolute;
-    width: 800px;
-    margin-top: 360px;
+    width: 60vw;
+    margin-top: 440px;
     display: flex;
     justify-content: center;
 }
