@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="opt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+    <script>
+        var aux;
+        document.onselectionchange = function() 
+        {
+        var selObj = window.getSelection();
+        var selRange = selObj.toString();
+        console.log(selRange);
+        aux=selRange;
+        document.querySelector('.selection').innerHTML = selRange;
+        }
+    
+        $(".selection").draggable({
+        cursor: "crosshair"
+        });
+        const synth = window.speechSynthesis;
+        function teste()
+        {
+            let t = aux;
+            let voices = synth.getVoices();
+            if(voices.length !==0)
+            {
+                let msg= new SpeechSynthesisUtterance();
+                msg.voice=voices[0];
+                msg.rate=1;
+                msg.pitch=1;
+                msg.text=t;
+                msg.lang= "pt-BR"
+                synth.speak(msg);
+
+            }
+        }
+    </script>
+    <div class="element">
+       Bolsonaro, Lula velho idoso filho  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde blanditiis, accusamus cum nihil laboriosam magnam animi sed provident nisi a debitis numquam sequi sit rerum dignissimos? Eveniet tempore consequuntur, aperiam.
+      </div>
+      <br>
+      <div class="selection">
+        
+      </div>
+      <button onclick="teste()">l</button>
+</body>
+</html>

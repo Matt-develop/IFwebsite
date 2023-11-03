@@ -6,7 +6,13 @@
     <link rel="shortcut icon" href="imagens/icones/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="scrollAnm/style.css">
+    <link rel="stylesheet" href="slider/style.css">
+    <link rel="stylesheet" href="fala/fala.css">
     <title>Informática Para Internet</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
 </head>
 <header>
     
@@ -29,36 +35,101 @@
 </header>
 <body>
 
+    <div class="falapo">
+        <button onclick="teste()">Falar</button>
+    </div>
+
     <section> <!-- Primeira Tela -->
         
         <!-- Animação -->
         <div class="quadrado1"></div>
         <div class="quadrado2"></div>
         <div class="quadrado3"></div>
-        <img id="imgcurso" src="/imagens/LOGOLINDAv1.png" alt="logocurso"></img>
+        <img id="imgcurso" src="./imagens/LOGOLINDAv1.png" alt="logocurso"></img>
 
-        <div class="container1 reveal">
-            <p id="curso">Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-    </section>
-
-    <section> <!-- Segunda Tela -->
-        
-        <div class="container1 reveal">
-            <p>
-                Teste Lindo Maravilhoso. <br>
-                Anne&Anne, i love u so much &hearts; <br>
-            </p>
-        </div>
-
-    </section>
+        <!-- slider com banners -->
+        <div class="slider">
+            <div class="slides">
     
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                
+                <div class="slide first">
+                    <img src="./slider/img/1.png" alt="#">
+                </div>
+                <div class="slide">
+                    <img src="./slider/img/2.png" alt="#">
+                </div>
+                <div class="slide">
+                    <img src="./slider/img/3.png" alt="#">
+                </div>
+                <div class="slide">
+                    <img src="./slider/img/4.png" alt="#">
+                </div>
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+    
+            </div>
+    
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+        <!-- fim do slider -->
+
+    </section>
+
+    <section>
+
+        <div class="container reveal" id="cont1">
+           
+            <p id="curso">O curso <strong>PROEJA - Técnico em informática para internet</strong> integrado 
+                ao Ensino Médio na modalidade educação de jovens e adultos do campus Cubatão é um 
+                <strong>CURSO TÉCNICO</strong>, com duração de três anos, realizado no período noturno, 
+                para pessoas maiores de 18 anos.
+                Um curso preocupado com a formação integral do estudante e que respeita as 
+                especificidades do seu público-alvo.
+            </p>
+           
+        </div>
+
+
+        <div class="img reveal" >
+
+            <img id="imgcm" src="./imagens/pexels-christina-morillo-1181244.jpg">
+            <img id="imggp" src="./imagens/pexels-george-pak-7972735.jpg">
+
+        </div>
+
+        <div class="container reveal" id="cont2">
+
+            <p id="curso">Um curso de informática com bases sólidas, sintonizado com os avanços das 
+                tecnologias da informação e comunicação para formar cidadãos e profissionais de nível técnico 
+                competentes para atuar no mundo do trabalho, responsáveis ética e politicamente, com elevado 
+                grau de responsabilidade social e que contemplem um perfil para saber, fazer e 
+                gerenciar atividades, visando aplicações na produção de bens, serviços e conhecimentos 
+                para a sociedade.
+            </p>
+
+        </div>
+        
+
+    </section>
+   
     <!-- SCRIPTS -->
     <script src="scrollAnm/script.js"></script>
+    <script src="slider/script.js"></script>
+    <script src="./fala/script.js"></script>
 
 </body>
 <footer>
