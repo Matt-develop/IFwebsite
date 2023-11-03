@@ -189,7 +189,7 @@ right: -400px;
 @keyframes movecurso {
     0% {
         top: 0;
-        right: 0;
+        right: -500px;
     }
     100% {
         /*
@@ -197,7 +197,7 @@ right: -400px;
         right: 400px;
         Valores Anteriores ao Teste
         */
-        top: 100px;
+        top: 80px;
         right: 24vw;
         /* Valores Posteriores ao Teste */
     }
