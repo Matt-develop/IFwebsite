@@ -2,18 +2,16 @@
 
     margin: 0 auto;
     width: 60vw;
-    height: 480px;
+    height: 50vh;
     overflow: hidden;
     background-color: gray;
-    border-radius: 15px;
     margin-top: 42vh;
-    box-shadow: 1px 3px 5px black;
 }
 
 .slides {
 
     width: 400%;
-    height: 480px;
+    height: 50vh;
     display: flex;
     cursor: pointer;
 }
@@ -33,7 +31,7 @@
 .slide img {
 
     width: auto;
-    height: 480px
+    height: 50vh;
 }
 
 .manual-navigation {
@@ -89,7 +87,7 @@
 .navigation-auto {
     position: absolute;
     width: 60vw;
-    margin-top: 440px;
+    margin-top: 45.9vh;
     display: flex;
     justify-content: center;
 }
