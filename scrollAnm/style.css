@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-section {
+section:not(.slider) {
   min-height: 80vh;
   display: flex;
   align-items: center;
