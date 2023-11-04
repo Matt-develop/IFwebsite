@@ -5,8 +5,8 @@ section.slider {
     height: auto;
     padding: 0;
     overflow: hidden;
-    margin-top: 17.5%;
-    background-image: url(../imagens/banners/bannerBackColor.png);
+    margin-top: 35vh;
+    background-color: #ADC0D9;
 }
 
 .slider-content {
