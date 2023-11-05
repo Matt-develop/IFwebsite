@@ -71,14 +71,34 @@ opacity: 0.8;
 
 #redessociais
 {
-    background-color: white;
-    display: block;
+    background: white;
+    
     padding: bottom 100px;
     border-top: 1px solid #33333365;
     padding: 3rem,5rem;
 }
 .imga
-{
+{ 
  width: 12.5%;
  height: 12.5%;
+}
+.redes{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,0.75fr);
+}
+#titulomaldicoado
+{
+    
+    background-color: white;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.redessociais{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
 }
