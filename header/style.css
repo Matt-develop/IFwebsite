@@ -51,7 +51,7 @@
 .top-navigation__container,
 .faq__container,
 .pre-footer__container {
-  max-width: calc(1222px + 15px);
+  width: 100vw;
   margin: auto;
   padding: 0 0.75rem;
 }
