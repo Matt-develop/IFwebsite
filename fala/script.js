@@ -14,7 +14,11 @@ $(".selection").draggable({
 const synth = window.speechSynthesis;
 
 function teste()
-{    
+{   if(aux==undefined)
+    {
+        aux = "Nenhum texto foi selecionado, por favor selecione um texto para ser lido";
+    } 
+
     let t = aux;
     let voices = synth.getVoices();
 
