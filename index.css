@@ -84,6 +84,12 @@ header
     }
 
 }
+#talk {
+
+    width: 100px;
+    height: 100px;
+
+}
 @keyframes moveQuadrado2 {
     0% {
         top: 0;
@@ -146,14 +152,15 @@ animation: moveQuadrado3 4s ease-in-out forwards;
 max-width: 300px;
 padding: 20px;
 margin-left: 50px;
-border: 2px solid rgb(0, 71, 38);
+border: 2px solid rgb(255, 255, 255);
 border-radius: 50px;
 position: absolute;
 transform: translate(-50%);
-background-color: rgb(234, 250, 230);
+background-color: rgb(0, 0, 0);
 font-family: 'Quicksand', sans-serif;
 align-items: left;
 min-width: 0;
+color: rgb(255, 255, 255);
 
 }
 
@@ -162,7 +169,8 @@ min-width: 0;
 #cont1
 {
 
-top: 50px;
+
+top: -80px;
 z-index: 1;
 
 }
@@ -170,7 +178,7 @@ z-index: 1;
 #cont2
 {
  
-top: 250px;
+top: 220px;
 z-index: 1;
 right: -400px;
 
@@ -228,10 +236,11 @@ z-index: 1;
 {
 width: 350px; 
 height: 200px;
-top: -50px;
-right: -250px;   
+top: -150px;
+right: -280px;   
 position: absolute;
 border-radius: 20px;
+box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.5);
 position: absolute;
 }
 
@@ -240,9 +249,10 @@ position: absolute;
 width: 350px; 
 height: 200px;
 position: absolute;
-top: 150px;
+top: 120px;
 right: -600px;
 border-radius: 20px;
+box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 
