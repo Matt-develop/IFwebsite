@@ -1,5 +1,5 @@
 :root {
-  --primary: #02a97f;
+  --primary: #008060;
   --primary-2: #35ba99;
   --primary-3: #e0fdf6;
   --primary-4: #5bcb9d;
@@ -44,16 +44,18 @@
 
 .top-navigation__link,
 .top-navigation__link--active {
-  font-weight: 400;
-  font-size: 0.875rem;
+  font-weight: 399;
+  font-size: 1.5rem;
   line-height: 160%;
+  font-family: 'Lato', sans-serif;
 }
 
 .top-navigation__container {
   display: flex;
   gap: 2.5rem;
   align-items: center;
-  height: 2.875rem;
+  justify-content: center;
+  height: 4rem;
 }
 
 .top-navigation__link,

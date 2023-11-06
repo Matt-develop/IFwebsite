@@ -159,7 +159,31 @@ font-family: 'Quicksand', sans-serif;
 align-items: left;
 min-width: 0;
 color: rgb(255, 255, 255);
+}
 
+.img {
+max-width: 300px;
+padding: 20px;
+margin-left: 50px;
+border-radius: 50px;
+position: absolute;
+transform: translate(-50%);
+align-items: left;
+min-width: 0;
+margin-bottom: 360px;
+margin-left: -40px;
+}
+
+.img2 {
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    transform: translate(-50%);
+    align-items: left;
+    min-width: 0;
+    margin-top: 250px;
+    margin-left: -200px;
 }
 
 #cont1
@@ -225,10 +249,7 @@ z-index: 1;
 
 #imgcm
 {
-width: 350px; 
 height: 200px;
-top: -150px;
-right: -280px;   
 position: absolute;
 border-radius: 20px;
 box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.5);
@@ -237,11 +258,8 @@ position: absolute;
 
 #imggp
 {
-width: 350px; 
 height: 200px;
 position: absolute;
-top: 120px;
-right: -600px;
 border-radius: 20px;
 box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.5);
 }
