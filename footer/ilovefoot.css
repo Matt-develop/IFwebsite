@@ -6,7 +6,7 @@
     margin-bottom: 0;
     padding-bottom: 0;
     bottom: 0;
-    background-color: #45668a;
+    background: linear-gradient(#45668a, white);
 }
 footer
 {
@@ -20,8 +20,7 @@ footer
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 1px;
-    display: absolute;
-   
+    display: absolute;  
 }
 
 #conteudofoot
