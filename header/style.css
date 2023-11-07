@@ -115,16 +115,27 @@
 }
 
 #img_bandeiraestados
-{ display: flex;
+{
+  display: flex;
   bottom: 0;
- margin-top: 18px;
-  height: 23.5px;
-  width: 37.5px;
+  margin-top: 18px;
+  height: 50%;
+  width: auto;
+  border-radius: 5px;
+  transition: 0.5s;
 }
+
 #img_bandeiraespanha
-{ display: flex;
+{ 
+  display: flex;
   bottom: 0;
- margin-top: 18px;
-  height: 25px;
-  width: 40px;
+  margin-top: 18px;
+  height: 50%;
+  width: auto;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#img_bandeiraestados:hover, #img_bandeiraespanha:hover {
+  border: 2px solid var(--primary);
 }
