@@ -113,3 +113,18 @@
   height: 100%;
   padding-bottom: .125rem;
 }
+
+#img_bandeiraestados
+{ display: flex;
+  bottom: 0;
+ margin-top: 18px;
+  height: 23.5px;
+  width: 37.5px;
+}
+#img_bandeiraespanha
+{ display: flex;
+  bottom: 0;
+ margin-top: 18px;
+  height: 25px;
+  width: 40px;
+}
