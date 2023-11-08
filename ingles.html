@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="scrollAnm/style.css">
+    <link rel="stylesheet" href="slider/style.css">
+    <link rel="stylesheet" href="fala/fala.css">
+    <link rel="stylesheet" href="popUps/new/pop.css">
+    <link rel="stylesheet" href="footer/ilovefoot.css">
+    <link rel="stylesheet" href="header/style.css">
+    <title>Informática Para Internet</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="./header/script.js"></script>
+</head>
+<body>
+
+    <!-- header -->
+    <nav class="top-navigation">
+        <div class="top-navigation__container">
+    
+            <a class="top-navigation__link--active" href="#">
+                <span class="top-navigation__link-content">O Curso</span>
+            </a>
+
+            <a class="top-navigation__link" href="#">
+                <span class="chevron"></span>
+                <span class="top-navigation__link-content">Estude Aqui</span>
+            </a>
+    
+            <a class="top-navigation__link" href="./paginas/pro.html">
+                <span class="top-navigation__link-content">Por que Fazer?</span>
+            </a>
+    
+            <a class="top-navigation__link" href="#">
+                <span class="top-navigation__link-content">Galeria</span>
+
+                <div class="top-navigation__link-badge">
+                    <img src="imagens/icones/photo.svg" width="12" height="12" alt="ícone da galeria" style="border-radius: 2px;">
+                </div>
+            </a>
+
+            <a href="#" class="top-navigation__link">
+                <img id="img_bandeiraestados" src="imagens/bandeiras/bandeira-estados-unidos.webp" alt="bandeira dos Estados Unidos">
+            </a>
+
+            <a  href="#" class="top-navigation__link">
+                <img id="img_bandeiraespanha" src="imagens/bandeiras/bandeira-da-espanha.webp" alt="bandeira da Espanha">
+            </a>       
+        </div>
+    </nav>
+
+    <!-- vLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    <!--Fim Vlibras-->
+
+    <!--Leitor do texto selecionado-->
+    <div class="falapo" style="z-index: 3;">
+
+        <a href="javascript:teste()">
+
+            <img id="talk" src="./imagens/talk.png">
+
+        </a>
+
+    </div>
+    <!--Fim do Leitor do texto selecionado-->
+   
+    <!-- Animação -->
+    <section class="intro" >
+
+        <div class="quadrado1"></div>
+        <div class="quadrado2"></div>
+        <div class="quadrado3"></div>
+        <img id="imgcurso" src="./imagens/LOGOLINDAv1.png" alt="Logo do Curso"></img>
+
+    </section> 
+
+    <section> <!-- Primeira Tela -->
+            
+        <!-- slider com banners -->
+        <section class="slider">
+            <div class="slider-content">
+    
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+    
+                <!-- Primeiro Banner - Estude Aqui -->
+                <div class="slide-box first">
+                    <a href="#"><img src="./imagens/banners/1.png" alt="banner que diz: Estude aqui e Inscreva-se"></a>
+                </div>
+
+                <!-- Segundo Banner - Por que Fazer -->
+                <div class="slide-box">
+                    <a href="./paginas/pro.html"><img src="./imagens/banners/2.png" alt="banner que diz: Por quê Fazer?, e Conheça as diversas áreas de atuação do Curso!"></a>
+                </div>
+
+                <!-- Terceiro Banner - Galeria -->
+                <div class="slide-box">
+                    <a href="#"><img src="./imagens/banners/3.png" alt="Banner que diz:Galeria, conheça nosso Campus com seus próprios olhos!"></a>
+                </div>
+    
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+    
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn" id="1"></label>
+                    <label for="radio2" class="manual-btn" id="2"></label>
+                    <label for="radio3" class="manual-btn" id="3"></label>
+                </div>
+    
+            </div>
+        </section>
+        <!-- fim do slider -->
+
+    </section>
+
+    <section class="baixo">
+
+        <!-- logo do curso -->
+        <img id="tecpro" src="./imagens/logocurso.png">
+
+        <div class="container reveal" id="cont1">
+           
+            <p id="curso">O curso <strong>PROEJA - Técnico em informática para internet</strong> integrado
+                ao Ensino Médio na modalidade educação de jovens e adultos do campus Cubatão é um
+                <strong>CURSO TÉCNICO</strong>, com duração de três anos, realizado no período noturno,
+                para pessoas maiores de 18 anos.
+                Um curso preocupado com a formação integral do estudante e que respeita as
+                especificidades do seu público-alvo.
+            </p>
+           
+        </div>
+        
+        <div class="img reveal">
+            <img id="imgcm" src="./imagens/pexels-christina-morillo-1181244.jpg" alt="imagem de uma pessoa programando com um celuLar e um computador.  ">
+        </div>
+
+        <div class="container reveal" id="cont2">
+
+            <p id="curso">Um curso de informática com bases sólidas, sintonizado com os avanços das
+                tecnologias da informação e comunicação para formar cidadãos e profissionais de nível técnico
+                competentes para atuar no mundo do trabalho, responsáveis ética e politicamente, com elevado
+                grau de responsabilidade social e que contemplem um perfil para saber, fazer e
+                gerenciar atividades, visando aplicações na produção de bens, serviços e conhecimentos
+                para a sociedade.
+            </p>
+
+        </div>
+
+        <div class="img2 reveal">
+            <img id="imggp" src="./imagens/pexels-george-pak-7972735.jpg" alt="imagem de três pessoas segurando diplomas.">
+        </div>
+
+        <h1 id="cam">Câmpus</h1>
+        <div class="linha-horizontal"></div>
+
+        <h1 id="cur">Curso</h1>
+        <div class="linha-horizontal2"></div>
+
+        <a id="abrirPopup1" class="botao">
+            <img id="imgp1" src="./imagens/Diferenciais (1).png">
+        </a>
+        <a id="abrirPopup2" class="botao">
+            <img id="imgp2" src="./imagens/Diferenciais (2).png">
+        </a>
+        <a id="abrirPopup3" class="botao">
+            <img id="imgp3" src="./imagens/Diferenciais (3).png">
+        </a>
+        <a id="abrirPopup4" class="botao">
+            <img id="imgp4" src="./imagens/Diferenciais (4).png">
+        </a>
+
+        <!-- popup 1 -->
+        <div id="popup1" class="popup">
+            <div class="popup-conteudo">
+                <h2>Pop-up 1</h2>
+                <p>Este é o pop-up 1.</p>
+                <button id="fecharPopup1">Fechar</button>
+            </div>
+        </div>
+    
+        <!-- popup 2 -->
+        <div id="popup2" class="popup">
+            <div class="popup-conteudo">
+                <h2>Pop-up 2</h2>
+                <p>Este é o pop-up 2.</p>
+                <button id="fecharPopup2">Fechar</button>
+            </div>
+        </div>
+    
+        <!-- popup3 -->
+        <div id="popup3" class="popup">
+            <div class="popup-conteudo">
+                <h2>Pop-up 3</h2>
+                <p>Este é o pop-up 3.</p>
+                <button id="fecharPopup3">Fechar</button>
+            </div>
+        </div>
+    
+        <!-- popup4 -->
+        <div id="popup4" class="popup">
+            <div class="popup-conteudo">
+                <h2>Pop-up 4</h2>
+                <p>Este é o pop-up 4.</p>
+                <button id="fecharPopup4">Fechar</button>
+            </div>
+        </div>
+
+    </section>
+   
+    <!-- SCRIPTS -->
+    <script src="./scrollAnm/script.js"></script>
+    <script src="./slider/script.js"></script>
+    <script src="./fala/script.js"></script>
+    <script src="./popUps/new/pop.js"></script>
+
+    <!-- footer -->
+    <section id="aiiii">
+        <footer>
+          <div id="conteudofoot">
+              <ul class="listafoot"><!--Divisória do Footer-->
+                  <li>
+                      <h3 class="ti">Cursos</h3>
+                  </li>
+                  
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/tecnicos" class="link">Técnicos</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/superiores" class="link">Superiores</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/corpo-docente" class="link">Corpo docente</a>
+                  </li>
+              </ul>
+              <ul class="listafoot"><!--Divisória do Footer-->
+                  <li>
+                      <h3 class="ti">Alunos</h3>
+                  </li>
+
+                  <li>
+                      <a href="https://www.ifsp.edu.br/component/content/article/2-uncategorised/2778-guia-do-estudante-ifsp" class="link">Guia do Estudante 2023</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/images/Documentos/manual_do__calouro_cubatao.pdf" class="link">Manual do calouro</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/bolsas" class="link">Bolsas</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/projetos-de-ensino" class="link">Projetos de Ensino</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/horarios-e-calendario" class="link">Horários e Calendário</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/estagio" class="link">Estágio</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/secretaria" class="link">Secretaria</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/pae" class="link">PAE</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/gremio-estudantil" class="link">Grêmio Estudantil</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/atletica" class="link">Atlética</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/diretorio-academico" class="link">Diretório Acadêmico</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/egressos" class="link">Egressos</a>
+                  </li>
+              </ul>
+              
+              <ul class="listafoot"> <!--Divisória do Footer-->
+                <li>
+                    <h3 class="ti">Serviços</h3>
+                </li>
+
+                  <li>
+                      <a href="http://www.ifsp.edu.br/ouvidoria" class="link">Ouvidoria</a>
+                  </li>
+
+                  <li>
+                      <a href="http://www.ifsp.edu.br/acessoainformacao" class="link">Acesso à Informação</a>
+                  </li>
+
+                  <li>
+                      <a href="https://cbt.ifsp.edu.br/index.php/noticias" class="link">Lista de Notícias</a>
+                  </li>            
+              </ul>
+          </div>
+          <!--Seção de Redes Sociais-->
+          <div class="redessociais"> 
+
+              <ul class="redes">
+                <li>
+                    <a href="https://www.facebook.com/ifspcubatao/" class="link"><img class="imga" src="footer/facebook.png" alt="facebook logo"></a>
+                </li>
+
+                <li>
+                    <a href="http://instagram.com/ifspcubatao" class="link"><img class="imga" src="footer/3670274.png" alt="instagram logo"></a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/channel/UCjjlXO_fb4HNLJLn0SF2RkQ" class="link"><img class="imga" src="footer/youtube3.png" alt="youtube logo"></a>
+                </li> 
+
+            </ul>
+          </div>  
+         
+      </footer>
+    </section>  
+</body>
+</html>
