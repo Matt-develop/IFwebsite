@@ -29,7 +29,7 @@ function teste()
         msg.rate=1;
         msg.pitch=1;
         msg.text=t;
-        msg.lang= "en-EN"
+        msg.lang= "en-US"
         synth.speak(msg);
     }
 }
