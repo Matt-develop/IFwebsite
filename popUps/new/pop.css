@@ -1,144 +1,197 @@
- .botao {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Quicksand&display=swap');
 
-    cursor: pointer;
-    position: absolute;
+ 
+.botao {
 
-    animation:  example 1.5s infinite ease-in-out;
+   cursor: pointer;
+   position: absolute;
+
+   animation:  example 1.5s infinite ease-in-out;
 }
 
+.fec {
+
+   cursor: pointer;
+  float: right;
+}
 @keyframes example
 {
-    50% {
-        transform: translateY(-10%)
-    }
+   50% {
+       transform: translateY(-10%)
+   }
 }
 .botao:hover{
 
-    z-index: 1;
-    filter:brightness(55%);
+   z-index: 1;
+   filter:brightness(55%);
 }
 
+.pp {
+
+   font-family: 'Quicksand', sans-serif;
+   color: rgb(255, 255, 255);
+
+}
+
+#difer {
+
+   margin-bottom: 20px;
+   font-family: 'Outfit', sans-serif;
+   color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+}
 .popup {
-    display: none;
-    position: fixed;
+   display: none;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+    left: 0;
     top: 0;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-
-    z-index: 1;
+   z-index: 1;
+   border-radius: 20px;
 }
+
 
 .popup-conteudo {
-    background: #7e2828;
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
+   background: #000000;
+   max-width: 400px;
+   margin: 100px auto;
+   padding: 30px;
+   border-radius: 5px;
+   text-align: center;
+   align-items: center;
+   max-width: 600px;
+   margin-bottom: 10px;
+   
 }
 
+.fec {
 
+   color: rgb(255, 255, 255);
+
+}
 #abrirPopup1
 {
-    
-    bottom: -1400px ;
-    left: 150px;
-    border-radius: 30px;
+   
+   bottom: -1400px ;
+   left: 150px;
+   border-radius: 30px;
 }
 
 #imgp1{
-    
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px;
+   
+   width: 200px;
+   height: 300px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px;
 
 }
 
 #abrirPopup2
 {
-    
-    bottom: -1500px ;
-    left: 300px;
-    border-radius: 30px;
+   
+   bottom: -1500px ;
+   left: 300px;
+   border-radius: 30px;
 }
 
 #imgp2{
-    
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px;
+   
+   width: 200px;
+   height: 300px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px;
 }
 
 #abrirPopup3
 {
-    
-    bottom: -2000px ;
-    left: 750px;
-    border-radius: 30px;
+   
+   bottom: -2000px ;
+   left: 750px;
+   border-radius: 30px;
 }
 
 #imgp3{
-    
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px;
+   
+   width: 200px;
+   height: 300px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px;
 
 }
 
 #abrirPopup4
 {
-    
-    bottom: -1900px ;
-    left: 900px;
-    border-radius: 30px;
+   
+   bottom: -1900px ;
+   left: 900px;
+   border-radius: 30px;
 }
 
 #imgp4{
-    
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px;
+   
+   width: 200px;
+   height: 300px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px;
 }
 
 .linha-horizontal {
-    width: 100%;
-    border-top: 1px solid black; 
-    position: absolute;
-    bottom: -1210px;
-    
+   width: 100%;
+   border-top: 1px solid black; 
+   position: absolute;
+   bottom: -1210px;
+   
 
-  }
+ }
 
-  #cam 
-  {
-  
-      font-family: 'Outfit', sans-serif;
-      font-size: 80px;
-      position: absolute;
-      bottom: -1150px;
-    right: 100px;
-  }
+ #cam 
+ {
+ 
+     font-family: 'Outfit', sans-serif;
+     font-size: 80px;
+     position: absolute;
+     bottom: -1150px;
+   right: 100px;
+   color: yellow;
+ }
 
-  .linha-horizontal2 {
-    width: 80%;
-    border-top: 1px solid black; 
-    position: absolute;
-    bottom: -1800px;
-    
+ .linha-horizontal2 {
+   width: 80%;
+   border-top: 1px solid black; 
+   position: absolute;
+   bottom: -1800px;
+   
 
-  }
+ }
 
-  #cur 
-  {
-  
-      font-family: 'Outfit', sans-serif;
-      font-size: 80px;
-      position: absolute;
-      bottom: -1750px;
-    left: 100px;
-  }
+ #pcur {
+
+    font-family: 'QuickSand', sans-serif;
+     font-size: 28px;
+     position: absolute;
+     bottom: -1300px;
+     right: 60px;
+ }
+ #cur 
+ {
+ 
+     font-family: 'Outfit', sans-serif;
+     font-size: 80px;
+     position: absolute;
+     bottom: -1750px;
+   left: 100px;
+   color: yellow;
+ }
+
+ #pcam 
+ {
+   
+    font-family: 'QuickSand', sans-serif;
+     font-size: 24px;
+     position: absolute;
+     bottom: -1900px;
+     left: 30px;
+     
+ }
