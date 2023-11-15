@@ -38,6 +38,7 @@ function teste()
         msg.lang= "pt-BR"
         synth.speak(msg);
         textopraserlido=undefined;
+        aux=undefined;
     }
     
 }
