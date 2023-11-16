@@ -1,0 +1,456 @@
+* {
+    box-sizing: border-box;
+  }
+  video{
+      max-width: 100%;
+      vertical-align: top;   
+  }
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  #hahah
+  {
+    border-radius: 20px 20px 0 0;
+  }
+
+  #iloveyouonlyyou
+  {
+    border-radius: 0 0  0 20px;
+  }
+
+  #aishite
+  {
+    border-radius: 0  0 20px 0;
+  }
+
+  .gallery {
+    right: 0;
+    display: flex;
+    margin: 15px;
+    margin-bottom: 5px;
+    max-width: 600px;
+    position: relative;
+    
+  }
+  @media screen and (min-width: 600px) {
+    .gallery {
+      padding-top: 340px;
+    }
+  }
+  .gallery__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .gallery__thumb {
+    padding-top: 3px;
+    margin: 3px;
+    display: block;
+  }
+  .gallery__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery__selector:checked + .gallery__img {
+    opacity: 1;
+  }
+  .gallery__selector:checked ~ .gallery__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+  }
+
+  .flamengo
+  {
+    display: flex;
+    margin-left: 100px;
+      right: 0;
+    margin-right: 100px;
+    font-size: 60px;
+  }
+  #sec
+  {
+    display: inline-flex;
+    width: 100%;
+  }
+  /*----------------------------------------------------------------------------------------*/
+
+  #hahah2
+  {
+    border-radius: 20px 20px 0 0;
+  }
+
+  #iloveyouonlyyou2
+  {
+    border-radius: 0 0  0 20px;
+  }
+
+  #aishite2
+  {
+    border-radius: 0  0 20px 0;
+  }
+
+  .gallery2 {
+right: 0 auto ;
+    display: flex;
+    margin: 15px;
+    margin-bottom: 5px;
+    max-width: 600px;
+    position: relative;
+    
+  }
+  @media screen and (min-width: 600px) {
+    .gallery2 {
+      padding-top: 340px;
+    }
+  }
+  .gallery2__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .gallery2__thumb {
+    padding-top: 3px;
+    margin: 3px;
+    display: block;
+  }
+  .gallery2__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery2__selector:checked + .gallery2__img {
+    opacity: 1;
+  }
+  .gallery2__selector:checked ~ .gallery2__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+  }
+
+  .flamengo2
+  {
+    display: flex;
+    
+     
+    margin-right: 350px;
+    font-size: 60px;
+    margin-left: 50px;
+  }
+  #sec2
+  {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+
+  /*----------------------------------------------------------------------------------------------*/
+
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  #hahah3
+  {
+    border-radius: 20px 20px 0 0;
+  }
+
+  #iloveyouonlyyou3
+  {
+    border-radius: 0 0  0 20px;
+  }
+
+  #aishite3
+  {
+    border-radius: 0  0 20px 0;
+  }
+
+  .gallery3 {
+    right: 0;
+    display: flex;
+    margin: 15px;
+    margin-bottom: 5px;
+    max-width: 600px;
+    position: relative;
+    
+  }
+  @media screen and (min-width: 600px) {
+    .gallery3 {
+      padding-top: 340px;
+    }
+  }
+  .gallery3__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .gallery3__thumb {
+    padding-top: 3px;
+    margin: 3px;
+    display: block;
+  }
+  .gallery3__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery3__selector:checked + .gallery3__img {
+    opacity: 1;
+  }
+  .gallery3__selector:checked ~ .gallery3__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+  }
+
+  .flamengo3
+  {
+    display: flex;
+    margin-left: 100px;
+      right: 0;
+    margin-right: 100px;
+    font-size: 60px;
+  }
+  #sec3
+  {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 100%;
+  }
+
+    /*----------------------------------------------------------------------------------------*/
+
+  #hahah4
+  {
+    border-radius: 20px 20px 0 0;
+  }
+
+  #iloveyouonlyyou4
+  {
+    border-radius: 0 0  0 20px;
+  }
+
+  #aishite4
+  {
+    border-radius: 0  0 20px 0;
+  }
+
+  .gallery4 {
+right: 0 auto ;
+    display: flex;
+    margin: 15px;
+    margin-bottom: 5px;
+    max-width: 600px;
+    position: relative;
+    
+  }
+  @media screen and (min-width: 600px) {
+    .gallery4 {
+      padding-top: 340px;
+    }
+  }
+  .gallery4__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .gallery4__thumb {
+    padding-top: 3px;
+    margin: 3px;
+    display: block;
+  }
+  .gallery4__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery4__selector:checked + .gallery4__img {
+    opacity: 1;
+  }
+  .gallery4__selector:checked ~ .gallery4__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+  }
+
+  .flamengo4
+  {
+    display: flex;
+    
+     
+    margin-right: 350px;
+    font-size: 60px;
+    margin-left: 50px;
+  }
+  #sec4
+  {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+
+  /*----------------------------------------------------------------------------------------------*/
+  
+
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  #hahah6
+  {
+    border-radius: 20px 20px 0 0;
+  }
+
+  #iloveyouonlyyou6
+  {
+    border-radius: 0 0  0 20px;
+  }
+
+  #aishite6
+  {
+    border-radius: 0  0 20px 0;
+  }
+
+  .gallery6 {
+    right: 0;
+    display: flex;
+    margin: 15px;
+    margin-bottom: 5px;
+    max-width: 600px;
+    position: relative;
+    
+  }
+  @media screen and (min-width: 600px) {
+    .gallery6 {
+      padding-top: 340px;
+    }
+  }
+  .gallery6__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .gallery6__thumb {
+    padding-top: 3px;
+    margin: 3px;
+    display: block;
+  }
+  .gallery6__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery6__selector:checked + .gallery6__img {
+    opacity: 1;
+  }
+  .gallery6__selector:checked ~ .gallery6__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+  }
+
+  .flamengo6
+  {
+    display: flex;
+    margin-left: 100px;
+      right: 0;
+    margin-right: 100px;
+    font-size: 60px;
+  }
+  #sec6
+  {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 100%;
+  }
+
+    /*----------------------------------------------------------------------------------------*/
+
+  #hahah5
+  {
+    border-radius: 20px 20px 0 0;
+  }
+
+  #iloveyouonlyyou5
+  {
+    border-radius: 0 0  0 20px;
+  }
+
+  #aishite5
+  {
+    border-radius: 0  0 20px 0;
+  }
+
+  .gallery5 {
+right: 0 auto ;
+    display: flex;
+    margin: 15px;
+    margin-bottom: 5px;
+    max-width: 600px;
+    position: relative;
+    
+  }
+  @media screen and (min-width: 600px) {
+    .gallery5 {
+      padding-top: 340px;
+    }
+  }
+  .gallery5__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .gallery5__thumb {
+    padding-top: 3px;
+    margin: 3px;
+    display: block;
+  }
+  .gallery5__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery5__selector:checked + .gallery5__img {
+    opacity: 1;
+  }
+  .gallery5__selector:checked ~ .gallery5__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+  }
+
+  .flamengo5
+  {
+    display: flex;
+    
+     
+    margin-right: 350px;
+    font-size: 60px;
+    margin-left: 50px;
+  }
+  #sec5
+  {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+
+  /*----------------------------------------------------------------------------------------------*/
+  

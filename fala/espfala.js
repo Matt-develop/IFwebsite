@@ -25,7 +25,7 @@ function teste()
     if(voices.length !== 0)
     {
         let msg= new SpeechSynthesisUtterance();
-        msg.voice=voices[1];
+        msg.voice=voices[7];
         msg.rate=1;
         msg.pitch=1;
         msg.text=t;

@@ -14,9 +14,15 @@ $(".selection").draggable({
 const synth = window.speechSynthesis;
 
 function teste()
-{   if(aux==undefined)
+{   
+    if(aux==undefined)
     {
-        aux = "Nenhum texto foi selecionado, por favor selecione um texto para ser lido";
+            aux = "Nenhum texto foi selecionado, por favor selecione um texto para ser lido";
+    
+            if(textopraserlido!=undefined)
+            {
+                aux=textopraserlido;
+            }
     } 
 
     let t = aux;
@@ -31,5 +37,8 @@ function teste()
         msg.text=t;
         msg.lang= "pt-BR"
         synth.speak(msg);
+        textopraserlido=undefined;
+        aux=undefined;
     }
+    
 }
