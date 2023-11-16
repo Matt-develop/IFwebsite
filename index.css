@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-html, body {
-    margin: 0;
-    height: 100%;
+@media (max-width: 1100px) {
+    html, body {
+        margin: 0;
+        width: 1100px;
+        overflow-x: hidden;
+    }
 }
 
+@media (min-width: 1101px) {
+    html, body {
+        margin: 0;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+}
 
 header
 {
@@ -83,10 +93,10 @@ header
 }
 
 #talk {
-    width: 80px;
+    width: 50px;
     height: auto;
-    position: fixed;
-    left: -22px;
+    /*! position: fixed; */
+    /*! left: -22px; */
 }
 
 @keyframes moveQuadrado2 {
@@ -189,13 +199,13 @@ margin-left: -40px;
 
 #cont1
 {
-top: -80px;
+top: 5vh;
 z-index: 1;
 }
 
 #cont2
 { 
-top: 220px;
+top: 50vh;
 z-index: 1;
 right: -400px;
 }
@@ -280,4 +290,5 @@ background-color: #45668a;
     width: 780px;
     height: auto;
 }
-    
+
+/* responsividade (sons de morte e sofrimento) */
