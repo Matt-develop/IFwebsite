@@ -286,7 +286,7 @@ background-color: #45668a;
 #tecpro {
     position: absolute;
     right: 80px;
-    top: 870px;
+    top: auto;
     width: 780px;
     height: auto;
 }
