@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/imagens/icones/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="/scrollAnm/style.css">
-    <link rel="stylesheet" href="/slider/style.css">
-    <link rel="stylesheet" href="/fala/fala.css">
-    <link rel="stylesheet" href="/popUps/new/pop.css">
-    <link rel="stylesheet" href="/footer/ilovefoot.css">
-    <link rel="stylesheet" href="./header/style.css">
+    <link rel="shortcut icon" href="imagens/icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="scrollAnm/style.css">
+    <link rel="stylesheet" href="slider/style.css">
+    <link rel="stylesheet" href="fala/fala.css">
+    <link rel="stylesheet" href="popUps/new/pop.css">
+    <link rel="stylesheet" href="footer/ilovefoot.css">
+    <link rel="stylesheet" href="header/style.css">
     <title>Informática Para Internet</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
@@ -18,7 +18,10 @@
     <script src="./header/script.js"></script>
 </head>
 <body>
-    <script src="/atalhos/atalhos.js"></script>
+
+    <!-- atalhos com alt -->
+    <script src="../atalhos/atalhos.js"></script>
+    
     <!-- header -->
     <nav class="top-navigation">
         <div class="top-navigation__container">
@@ -27,7 +30,7 @@
                 <span class="top-navigation__link-content">El Curso</span>
             </a>
 
-            <a class="top-navigation__link" href="#">
+            <a class="top-navigation__link" href="https://cbt.ifsp.edu.br/index.php/trabalhe-no-campus-cubatao/66-processos-seletivos-e-concursos">
                 <span class="chevron"></span>
                 <span class="top-navigation__link-content">Estudie Aquí</span>
             </a>
@@ -36,31 +39,41 @@
                 <span class="top-navigation__link-content">¿Por qué hacerlo?</span>
             </a>
     
-            <a class="top-navigation__link" href="#">
+            <a class="top-navigation__link" href="/galeriaa/galeria.html">
                 <span class="top-navigation__link-content">Galería</span>
 
                 <div class="top-navigation__link-badge">
-                    <img src="/imagens/icones/photo.svg" width="12" height="12" alt="ícone da galeria" style="border-radius: 2px;">
+                    <img src="../imagens/icones/photo.svg" width="12" height="12" alt="ícone da galeria" style="border-radius: 2px;">
                 </div>
             </a>
 
-            <a href="/ingles.html" class="top-navigation__link">
-                <img id="img_bandeiraestados" src="/imagens/bandeiras/bandeira-estados-unidos.webp" alt="bandeira dos Estados Unidos">
+            <a href="ingles.html" class="top-navigation__link">
+                <img id="img_bandeiraestados" src="../imagens/bandeiras/bandeira-estados-unidos.webp" alt="bandeira dos Estados Unidos">
             </a>
 
-            <a  href="/index.html" class="top-navigation__link">
-                <img id="img_bandeiraespanha" src="/imagens/bandeiras/2-bandeira-do-brasil.webp" alt="bandeira do Brasil">
+            <a  href="../index.html" class="top-navigation__link">
+                <img id="img_bandeiraespanha" src="../imagens/bandeiras/2-bandeira-do-brasil.webp" alt="bandeira da Espanha">
             </a>       
         </div>
     </nav>
+
+    <!-- vLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    <!--Fim Vlibras-->
 
     <!--Leitor do texto selecionado-->
     <div class="falapo" style="z-index: 3;">
 
         <a href="javascript:teste()">
-
-            <img id="talk" src="./imagens/talk.png">
-
+            <img id="talk" src="./imagens/talk.png" alt="icone de uma mão pressionando um botão que reproduz o audio">
         </a>
 
     </div>
@@ -72,7 +85,7 @@
         <div class="quadrado1"></div>
         <div class="quadrado2"></div>
         <div class="quadrado3"></div>
-        <img id="imgcurso" src="./imagens/LOGOLINDAv1.png" alt="Logo do Curso"></img>
+        <img id="imgcurso" src="./imagens/LOGOLINDAv1.png" alt="Logo do Curso que diz Informática e Internet"></img>
 
     </section> 
 
@@ -88,17 +101,23 @@
     
                 <!-- Primeiro Banner - Estude Aqui -->
                 <div class="slide-box first">
-                    <a href="#"><img src="./imagens/esbanners/2.png" alt="banner que diz: Estude aqui e Inscreva-se"></a>
+                    <a href="https://cbt.ifsp.edu.br/index.php/trabalhe-no-campus-cubatao/66-processos-seletivos-e-concursos">
+                        <img src="../imagens/esbanners/2.png" alt="banner que diz: Estude aqui e Inscreva-se, o fundo da Imagem é uma foto do campus">
+                    </a>
                 </div>
 
                 <!-- Segundo Banner - Por que Fazer -->
                 <div class="slide-box">
-                    <a href="./paginas/pro.html"><img src="./imagens/esbanners/4.png" alt="banner que diz: Por quê Fazer?, e Conheça as diversas áreas de atuação do Curso!"></a>
+                    <a href="pro.html">
+                        <img src="../imagens/esbanners/4.png" alt="banner que diz: Por quê Fazer?, e Conheça as diversas áreas de atuação do Curso!">
+                    </a>
                 </div>
 
                 <!-- Terceiro Banner - Galeria -->
                 <div class="slide-box">
-                    <a href="#"><img src="./imagens/esbanners/6.png" alt="Banner que diz:Galeria, conheça nosso Campus com seus próprios olhos!"></a>
+                    <a href="#">
+                        <img src="../imagens/esbanners/6.png" alt="Banner que diz:Galeria, conheça nosso Campus com seus próprios olhos!">
+                    </a>
                 </div>
     
                 <div class="nav-auto">
@@ -122,11 +141,12 @@
     <section class="baixo">
 
         <!-- logo do curso -->
-        <img id="tecpro" src="./imagens/logocurso.png">
+        <img id="tecpro" src="../imagens/logocurso.png">
 
         <div class="container reveal" id="cont1">
            
-            <p id="curso">El curso <strong> - Técnico en Informática para Internet</strong>
+            <p id="curso">
+                El curso <strong> - Técnico en Informática para Internet</strong>
                 integrado a la Educación Secundaria en la modalidad
                 de educación de jóvenes y adultos en el campus de
                 Cubatão es un <strong>CURSO TÉCNICO</strong>, con una duración de
@@ -139,13 +159,14 @@
            
         </div>
         
-        <div class="img reveal">
-            <img id="imgcm" src="./imagens/pexels-christina-morillo-1181244.jpg" alt="imagem de uma pessoa programando com um celuLar e um computador.  ">
+        <div class="img reveal" style="top: 14vh;">
+            <img id="imgcm" src="../imagens/pexels-christina-morillo-1181244.jpg" alt="imagem de uma pessoa programando com um celuLar e um computador." style="left: 11vw;">
         </div>
 
         <div class="container reveal" id="cont2">
 
-            <p id="curso">Es un curso de informática con bases sólidas, en
+            <p id="curso">
+                Es un curso de informática con bases sólidas, en
                 sintonía con los avances de las tecnologías de la
                 información y comunicación, para formar ciudadanos y
                 profesionales de nivel técnico competentes para actuar
@@ -158,35 +179,54 @@
 
         </div>
 
-        <div class="img2 reveal">
-            <img id="imggp" src="./imagens/pexels-george-pak-7972735.jpg" alt="imagem de três pessoas segurando diplomas.">
+        <div class="img2 reveal" style="top: 22vh;">
+            <img id="imggp" src="../imagens/pexels-george-pak-7972735.jpg" alt="imagem de três pessoas segurando diplomas." style="left: 25vw;">
         </div>
 
         <h1 id="cam">Instalaciones</h1>
         <div class="linha-horizontal"></div>
 
-        <h1 id="cur">Curso</h1>
+        <h1 id="cur" >Curso</h1>
         <div class="linha-horizontal2"></div>
-
+        
+        <p id="pcur">Conoce<strong style="color: white;"> TODO </strong>lo que hace especial a nuestro Campus, <br> y ¡aprende cómo apuntarte al curso!</p>
+        <p id="pcam">¿No conoces el curso? <strong style="color: white;">¡Relájate!</strong> <br> Haz clic a la derecha para ver los detalles generales del curso y ¡MUCHO MÁS!</p>
+        
         <a id="abrirPopup1" class="botao">
-            <img id="imgp1" src="./imagens/Diferenciais (1).png">
+            <img id="imgp1" src="../imagens/Diferenciais (1).png">
         </a>
         <a id="abrirPopup2" class="botao">
-            <img id="imgp2" src="./imagens/Diferenciais (2).png">
+            <img id="imgp2" src="../imagens/Diferenciais (2).png">
         </a>
         <a id="abrirPopup3" class="botao">
-            <img id="imgp3" src="./imagens/Diferenciais (3).png">
+            <img id="imgp3" src="../imagens/Diferenciais (3).png">
         </a>
         <a id="abrirPopup4" class="botao">
-            <img id="imgp4" src="./imagens/Diferenciais (4).png">
+            <img id="imgp4" src="../imagens/Diferenciais (4).png">
         </a>
 
         <!-- popup 1 -->
         <div id="popup1" class="popup">
             <div class="popup-conteudo">
-                <h2>Pop-up 1</h2>
-                <p>Este é o pop-up 1.</p>
-                <button id="fecharPopup1">Fechar</button>
+                <h2 id="difer">Diferenciales</h2>
+                <p class="pp">
+                    El curso técnico PROEJA en informática para internet integrado con la enseñanza secundaria en el 
+                    campus de Cubatão cumple los requisitos de verticalización de la red federal - el alumno termina la 
+                    enseñanza secundaria y puede pasar a la enseñanza superior en el mismo campus en el curso de 
+                    Tecnología en Análisis de Sistemas - ADS.
+
+                    <br>El Campus de Cubatão cuenta con laboratorios de informática general, un laboratorio de 
+                    inteligencia artificial y un Labmaker, una estructura física capaz de soportar los más diversos 
+                    entornos de desarrollo. El campus también cuenta con pistas deportivas y un gimnasio polideportivo, 
+                    lo que posibilita la práctica de actividades físicas, que tienen lugar por la tarde, integradas con 
+                    otras asignaturas.
+                    
+                    <br>Al igual que los demás cursos del campus de Cubatão, las clases son impartidas por profesores 
+                    especializados - maestros y doctores, guiados por un currículo de referencia para garantizar la 
+                    calidad y la identidad del curso.
+                    
+                    </p>
+                <a class="fec" id="fecharPopup1">x</a>
             </div>
         </div>
     
@@ -194,8 +234,8 @@
         <div id="popup2" class="popup">
             <div class="popup-conteudo">
                 <h2>Pop-up 2</h2>
-                <p>Este é o pop-up 2.</p>
-                <button id="fecharPopup2">Fechar</button>
+                <p>Esta es lo pop-up 2.</p>
+                <button id="fecharPopup2">Cerrar</button>
             </div>
         </div>
     
@@ -203,8 +243,8 @@
         <div id="popup3" class="popup">
             <div class="popup-conteudo">
                 <h2>Pop-up 3</h2>
-                <p>Este é o pop-up 3.</p>
-                <button id="fecharPopup3">Fechar</button>
+                <p>Esta es lo pop-up 3.</p>
+                <button id="fecharPopup3">Cerrar</button>
             </div>
         </div>
     
@@ -212,130 +252,23 @@
         <div id="popup4" class="popup">
             <div class="popup-conteudo">
                 <h2>Pop-up 4</h2>
-                <p>Este é o pop-up 4.</p>
-                <button id="fecharPopup4">Fechar</button>
+                <p>Esta es lo pop-up 4.</p>
+                <button id="fecharPopup4">Cerrar</button>
             </div>
         </div>
 
     </section>
    
     <!-- SCRIPTS -->
-    <script src="./scrollAnm/script.js"></script>
-    <script src="./slider/script.js"></script>
-    <script src="./fala/espfala.js"></script>
-    <script src="./popUps/new/pop.js"></script>
+    <script src="../scrollAnm/script.js"></script>
+    <script src="../slider/script.js"></script>
+    <script src="../fala/script.js"></script>
+    <script src="../popUps/new/pop.js"></script>
 
     <!-- footer -->
     <section id="aiiii">
         <footer>
-          <div id="conteudofoot">
-              <ul class="listafoot"><!--Divisória do Footer-->
-                  <li>
-                      <h3 class="ti">Cursos</h3>
-                  </li>
-                  
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/tecnicos" class="link">Técnico</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/superiores" class="link">Superiores</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/corpo-docente" class="link">Cuerpo docente</a>
-                  </li>
-              </ul>
-              <ul class="listafoot"><!--Divisória do Footer-->
-                  <li>
-                      <h3 class="ti">Estudiantes</h3>
-                  </li>
-
-                  <li>
-                      <a href="https://www.ifsp.edu.br/component/content/article/2-uncategorised/2778-guia-do-estudante-ifsp" class="link">Guía del estudiante 2023</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/images/Documentos/manual_do__calouro_cubatao.pdf" class="link">Manual para estudiantes de primer año</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/bolsas" class="link">Becas</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/projetos-de-ensino" class="link">Proyectos Docentes</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/horarios-e-calendario" class="link">Horarios y Calendario</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/estagio" class="link">Prácticas</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/secretaria" class="link">Secretario</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/pae" class="link">PAE</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/gremio-estudantil" class="link">Union de Estudiantes</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/atletica" class="link">Atlético</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/diretorio-academico" class="link">Directorio Académico</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/egressos" class="link">Graduados</a>
-                  </li>
-              </ul>
-              
-              <ul class="listafoot"> <!--Divisória do Footer-->
-                <li>
-                    <h3 class="ti">Servicios</h3>
-                </li>
-
-                  <li>
-                      <a href="http://www.ifsp.edu.br/ouvidoria" class="link">Defensor del Pueblo</a>
-                  </li>
-
-                  <li>
-                      <a href="http://www.ifsp.edu.br/acessoainformacao" class="link">Acceso a la información</a>
-                  </li>
-
-                  <li>
-                      <a href="https://cbt.ifsp.edu.br/index.php/noticias" class="link">Lista de noticias</a>
-                  </li>            
-              </ul>
-          </div>
-          <!--Seção de Redes Sociais-->
-          <div class="redessociais"> 
-
-              <ul class="redes">
-                <li>
-                    <a href="https://www.facebook.com/ifspcubatao/" class="link"><img class="imga" src="footer/facebook.png" alt="facebook logo"></a>
-                </li>
-
-                <li>
-                    <a href="http://instagram.com/ifspcubatao" class="link"><img class="imga" src="footer/3670274.png" alt="instagram logo"></a>
-                </li>
-
-                <li>
-                    <a href="https://www.youtube.com/channel/UCjjlXO_fb4HNLJLn0SF2RkQ" class="link"><img class="imga" src="footer/youtube3.png" alt="youtube logo"></a>
-                </li> 
-
-            </ul>
-          </div>  
+          
          
       </footer>
     </section>  
