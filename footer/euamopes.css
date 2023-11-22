@@ -1,0 +1,91 @@
+#container-voltar{
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+#voltar-para-topo{
+    color: #717782;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 10px 250px 25px 0;
+
+}
+
+    #footer{
+        display: flex;
+        justify-content: center;
+        background-color: #00420c;
+        font-family: "open_sansregular",'Open Sans',Arial,Helvetica,sans-serif;
+        height: 556px;
+        font-size: .9em;
+    color: #fff;
+    line-height: .9em;
+
+
+    }
+
+    #sexoanal{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 960px;
+        color: white;
+        padding: 46px 0 0;
+
+    }
+
+    li {
+  list-style-type: none;
+  padding: 0;
+  font-size: .9em;
+  line-height: 1.6em;
+}
+
+#img-qr{
+        width: 194px;
+        height: 280px;
+}
+
+    .texto-verde{
+        color: #61b06f;
+        font-size: 1.3em;
+        font-family: "open_sanssemibold",'Open Sans',Arial,Helvetica,sans-serif;
+    }
+    #titulo-footer{
+        line-height: 1.2em;
+    }
+
+    .pontinhos{
+        border-left:1px dotted #80a887;
+        padding: 0 5px 0 10px;
+    }
+
+    ul{
+        display: inline;
+    }
+
+    .img-final{
+        cursor: pointer;
+        width: 109px;
+        height: 49px;
+    }
+
+    #final{
+        display: flex;
+        justify-content: space-around;
+        background-color: #002907;
+        padding: 25px 0;
+        
+    }
+
+    a{
+        text-decoration: none;
+     color: white;
+    }
+    a:hover{
+        text-decoration:underline;
+    }
+    

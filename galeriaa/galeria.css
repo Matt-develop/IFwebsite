@@ -9,7 +9,7 @@ h1 {
 }
 
 .container {
-  margin-top: 110vh;
+  margin-top: 200vh;
   width: 70%;
   position: absolute;
   top: 50%;
@@ -469,3 +469,6 @@ img {
 }
 
 /*----------------------------------------------------------------------------------------------*/
+top-navigation{
+ padding-bottom: 1000px;
+}
