@@ -27,16 +27,16 @@ depoUnits.forEach(depo => {
             console.log('video rodando');
 
             document.querySelector('.media' + mediaNum).remove();
-            var img = document.createElement("img");
+            var video = document.createElement("video");
             
-            img.src = "./imagens/depoimentos/video.gif";
-            img.width = 320;
-            img.height = 240;
-            img.autoplay = true;
-            img.muted = true;
-            img.className = "media" + mediaNum;
+            video.src = "./imagens/depoimentos/video" + mediaNum + ".webm";
+            video.width = 320;
+            video.height = 240;
+            video.autoplay = true;
+            video.muted = true;
+            video.className = "media" + mediaNum;
 
-            this.appendChild(img);
+            this.appendChild(video);
             videoCreated = true;            
         }
     })
@@ -49,7 +49,7 @@ depoUnits.forEach(depo => {
             document.querySelector('.media' + mediaNum).remove();
             var img = document.createElement("img");
 
-            img.src = "./imagens/depoimentos/foto.png";
+            img.src = "./imagens/depoimentos/foto" + mediaNum + ".png";
             img.width = 320;
             img.height = 240;
             img.className = "media" + mediaNum;
@@ -64,11 +64,13 @@ depoUnits.forEach(depo => {
 document.getElementById("depo1").addEventListener('click', function(){
 
     if(!pop){
-        var img = document.createElement("img");
-        img.src = "./imagens/depoimentos/video.gif";
-        img.id = "videolindo";
-        img.className = "depoVid";
-        document.querySelector("body").appendChild(img);
+        var video = document.createElement("video");
+        video.src = "./imagens/depoimentos/video" + mediaNum + ".webm";
+        video.id = "videolindo";
+        video.className = "depoVid";
+        video.autoplay = true;
+        video.controls = true;
+        document.querySelector("body").appendChild(video);
         pop = true;
     }
     else {
@@ -79,11 +81,13 @@ document.getElementById("depo1").addEventListener('click', function(){
 document.getElementById("depo2").addEventListener('click', function(){
 
     if(!pop){
-        var img = document.createElement("img");
-        img.src = "./imagens/depoimentos/video.gif";
-        img.id = "videolindo";
-        img.className = "depoVid";
-        document.querySelector("body").appendChild(img);
+        var video = document.createElement("video");
+        video.src = "./imagens/depoimentos/video" + mediaNum + ".webm";
+        video.id = "videolindo";
+        video.className = "depoVid";
+        video.autoplay = true;
+        video.controls = true;
+        document.querySelector("body").appendChild(video);
         pop = true;
     }
     else {
@@ -94,11 +98,13 @@ document.getElementById("depo2").addEventListener('click', function(){
 document.getElementById("depo3").addEventListener('click', function(){
 
     if(!pop){
-        var img = document.createElement("img");
-        img.src = "./imagens/depoimentos/video.gif";
-        img.id = "videolindo";
-        img.className = "depoVid";
-        document.querySelector("body").appendChild(img);
+        var video = document.createElement("video");
+        video.src = "./imagens/depoimentos/video" + mediaNum + ".webm";
+        video.id = "videolindo";
+        video.className = "depoVid";
+        video.autoplay = true;
+        video.controls = true;
+        document.querySelector("body").appendChild(video);
         pop = true;
     }
     else {
@@ -109,11 +115,13 @@ document.getElementById("depo3").addEventListener('click', function(){
 document.getElementById("depo4").addEventListener('click', function(){
 
     if(!pop){
-        var img = document.createElement("img");
-        img.src = "./imagens/depoimentos/video.gif";
-        img.id = "videolindo";
-        img.className = "depoVid";
-        document.querySelector("body").appendChild(img);
+        var video = document.createElement("video");
+        video.src = "./imagens/depoimentos/video" + mediaNum + ".webm";
+        video.id = "videolindo";
+        video.className = "depoVid";
+        video.autoplay = true;
+        video.controls = true;
+        document.querySelector("body").appendChild(video);
         pop = true;
     }
     else {
