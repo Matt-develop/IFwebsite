@@ -29,7 +29,7 @@ depoUnits.forEach(depo => {
             document.querySelector('.media' + mediaNum).remove();
             var img = document.createElement("img");
             
-            img.src = "./video.gif";
+            img.src = "./imagens/depoimentos/video.gif";
             img.width = 320;
             img.height = 240;
             img.autoplay = true;
@@ -49,7 +49,7 @@ depoUnits.forEach(depo => {
             document.querySelector('.media' + mediaNum).remove();
             var img = document.createElement("img");
 
-            img.src = "./foto.png";
+            img.src = "./imagens/depoimentos/foto.png";
             img.width = 320;
             img.height = 240;
             img.className = "media" + mediaNum;
@@ -65,7 +65,7 @@ document.getElementById("depo1").addEventListener('click', function(){
 
     if(!pop){
         var img = document.createElement("img");
-        img.src = "./video.gif";
+        img.src = "./imagens/depoimentos/video.gif";
         img.id = "videolindo";
         img.className = "depoVid";
         document.querySelector("body").appendChild(img);
@@ -80,7 +80,7 @@ document.getElementById("depo2").addEventListener('click', function(){
 
     if(!pop){
         var img = document.createElement("img");
-        img.src = "./video.gif";
+        img.src = "./imagens/depoimentos/video.gif";
         img.id = "videolindo";
         img.className = "depoVid";
         document.querySelector("body").appendChild(img);
@@ -95,7 +95,7 @@ document.getElementById("depo3").addEventListener('click', function(){
 
     if(!pop){
         var img = document.createElement("img");
-        img.src = "./video.gif";
+        img.src = "./imagens/depoimentos/video.gif";
         img.id = "videolindo";
         img.className = "depoVid";
         document.querySelector("body").appendChild(img);
@@ -110,7 +110,7 @@ document.getElementById("depo4").addEventListener('click', function(){
 
     if(!pop){
         var img = document.createElement("img");
-        img.src = "./video.gif";
+        img.src = "./imagens/depoimentos/video.gif";
         img.id = "videolindo";
         img.className = "depoVid";
         document.querySelector("body").appendChild(img);
