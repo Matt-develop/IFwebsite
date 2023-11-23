@@ -15,8 +15,6 @@
 }
 
     #footer{
-        position: absolute;
-        top: 400vh;
         justify-content: center;
         background-color: #00420c;
         font-family: "open_sansregular",'Open Sans',Arial,Helvetica,sans-serif;
