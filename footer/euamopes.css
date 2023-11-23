@@ -1,5 +1,4 @@
 #container-voltar{
-    display: flex;
     justify-content: end;
     font-size: 14px;
     line-height: 20px;
@@ -16,7 +15,8 @@
 }
 
     #footer{
-        display: flex;
+        position: absolute;
+        top: 400vh;
         justify-content: center;
         background-color: #00420c;
         font-family: "open_sansregular",'Open Sans',Arial,Helvetica,sans-serif;
@@ -74,7 +74,6 @@
     }
 
     #final{
-        display: flex;
         justify-content: space-around;
         background-color: #002907;
         padding: 25px 0;

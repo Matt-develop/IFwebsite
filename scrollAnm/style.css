@@ -6,7 +6,6 @@
 
 section:not(.slider) {
   
-  display: flex;
   align-items: center;
 }
 
