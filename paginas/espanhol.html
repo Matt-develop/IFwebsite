@@ -9,201 +9,76 @@
     <link rel="stylesheet" href="../slider/style.css">
     <link rel="stylesheet" href="../fala/fala.css">
     <link rel="stylesheet" href="../popUps/new/pop.css">
-    
+    <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../header/style.css">
     <title>Informática Para Internet</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="../header/script.js"></script>
+    <link rel="stylesheet" href="../footer/euamopes.css">
 
 
-    <style>
-    body{
-    margin: 0;
-    font-family: 'Open Sans';
-  }
-  
-  header{
-      background-color: #195128;
-      background-image: -moz-radial-gradient(center,ellipse cover,#17882c 1%,#00510f 100%);
-      background-image: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(1%,#17882c),color-stop(100%,#00510f));
-      background-image: -webkit-radial-gradient(center,ellipse cover,#17882c 1%,#00510f 100%);
-      background-image: -o-radial-gradient(center,ellipse cover,#17882c 1%,#00510f 100%);
-      background-image: -ms-radial-gradient(center,ellipse cover,#17882c 1%,#00510f 100%);
-      background-image: radial-gradient(ellipse at center,#17882c 1%,#00510f 100%);
-       
-      
-         }
-  
-  .cabmaior{
-    color: white;
-    font-weight: 800;
-    font-size: 2.75em;
-    line-height: .8em;
-    letter-spacing: -1px;
-    display:inline-block;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  
-  .teste {
-    -webkit-text-size-adjust: 100%;
-      color: #fff;
-      margin-right: auto;
-      margin-left: auto;
-      width: 100%;
-      padding: 0;
-  }
-  
-  .subtitle{
-    font-size: small;
-    font-weight: 100;
-    color: white;
-  }
-  
-  header {
-      /*header copiado inteiro do original*/
-      background-color: #195128;
-      background-image: -moz-radial-gradient(center,ellipse cover,#17882c 1%,#00510f 100%);
-      background-image: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(1%,#17882c),color-stop(100%,#00510f));
-      background-image: -webkit-radial-gradient(center,ellipse cover,#17882c 1%,#00510f 100%);
-      background-image: -o-radial-gradient(center,ellipse cover,#17882c 1%,#00510f 100%);
-      background-image: -ms-radial-gradient(center,ellipse cover,#17882c 1%,#00510f 100%);
-      background-image: radial-gradient(ellipse at center,#17882c 1%,#00510f 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#157b28,endColorstr=#00510f,GradientType=1);
-      color: #fff;
-      padding: 14px 0 0 0;
-  }
-  
-  .adoromematar{
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-  }
-  
-  div{
-      display: block;
-  }
-  
-  
-  header .numerado{
-      height: 25px;
-      overflow: hidden;
-      width: 48%;
-  }
-  
-  header #accessibility {
-      font-family: Arial,Helvetica,sans-serif!important;
-      margin: 0;
-      line-height: 5px;
-      padding-top: 2px;
-      padding-left: 100px;
-  }
-  * ul, ol {
-      list-style: none outside none;
-  }
-  
-  ul, ol {
-      padding: 0;
-      margin: 0 0 10px 25px;
-  }
-  
-  * {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      vertical-align: baseline;
-  }
-  
-  .cabmaior ul {
-      display: block;
-      list-style-type: disc;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      padding-inline-start: 40px;
-  }
-  
-  * li {
-      display: inline;
-  }
-  
-  li:hover{
-    text-decoration: underline;
-  }
-  
-  header #accessibility a {
-      color: #dcffe3;
-      font-size: .7em;
-  }
-  
-  header #accessibility a span {
-      background-color: #cad2cc;
-      color: #195128;
-      padding: 0 2px 0 3px;
-  }
-  
-  .acessibilidade [class*="span"] {
-      display: block;
-      width: 100%;
-      min-height: 30px;
-      box-sizing: border-box;
-      float: left;
-      margin-left: 3.225806451612903%;
-  }
-  
-  #bottom{
-    margin-bottom: 15px;
-    margin-top: 7px;
-  }
-  
-  .direita{
-    float: right;
-  }
-  
-  .menu-servicos{
-    background-color: #00420c;
-    width: 100%;
-    text-align: right;
-  }
-  
-  .cabmenor a {
-      color: #fff;
-      font-size: .88em;
-  }
-  
-  header div.cabmenor li {
-      border-right: 1px solid #2f5439;
-      padding: 0 10px;
-      line-height: 1em;
-      font-size: .88em;
-  }
-  
-  a{
-    outline:medium none;
-    text-decoration: none;
-  }
-  
-  .teste{
-  background-color: #00420c;
-  }
-  
-  .cabmenor ul{
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-
-  
-   </style>
-
+   
 </head>
 <body>
 
     <!-- atalhos com alt -->
     <script src="../atalhos/atalhos.js"></script>
     
+    <header id="header"> 
+        <div class="adoromematar">
+          <div class="direcionamentos">
+          <div class="numerado">
+              <ul id="accessibility">
+                  <li>
+                      <a accesskey="1" href="#" id="link-conteudo">
+                          Ir para o conteúdo
+                          <span>1</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a accesskey="2" href="#" id="link-navegacao">
+                          Ir para o menu
+                          <span>2</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a accesskey="3" href="#" id="link-buscar">
+                          Ir para a busca
+                          <span>3</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a accesskey="4" href="#footer" id="link-rodape">
+                          Ir para o rodapé
+                          <span>4</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          </div>
+        <div class="cabmaior"><p class="subtitle" id="top">Instituto Federal de São Paulo</p> 
+          Campus Cubatao  <!-- cabeçalho (header) verde clara-->
+            <p class="subtitle" id="bottom">MINISTÉRIO DA EDUCAÇÃO</p>
+        </div>
+        <div class="teste">
+        <div class="cabmenor">
+           <nav class="menu-servicos direita">  
+              <ul>
+                  <li class="item-334"><a href="/index.php/entrar">Login</a></li>
+                  <li class="item-261"><a href="http://cbt.ifsp.edu.br/" target="_blank" rel="noopener noreferrer">Site Antigo</a></li>
+                  <li class="item-264"><a href="http://www.ifsp.edu.br/ouvidoria" target="_blank" rel="noopener noreferrer">Ouvidoria</a></li>
+                  <li class="item-279"><a href="http://www.ifsp.edu.br/acessoainformacao" target="_blank" rel="noopener noreferrer">Acesso à Informação</a></li>
+                  <li class="item-344"><a href="/index.php/noticias">Lista de Notícias</a></li>
+                  <li class="item-344"><a href="#">Acessibilidade</a></li>
+                  <li class="item-344"><a href="#">Alto contraste</a></li>
+              </ul>
+            </nav>
+          </div>
+          </div> <!-- cabealho (header) verde escura-->
+    </header>   
+
     <!-- header -->
     <nav class="top-navigation">
         <div class="top-navigation__container">
