@@ -17,12 +17,6 @@
     }
 }
 
-header
-{
-    background-color: rgb(255, 255, 255);
-    width: 100vw;
-    height: 60px;
-}
 
 .menu
 {
@@ -87,7 +81,7 @@ header
         left: 0;
     }
     100% {
-        top: 110px; 
+        top: 280px; 
         left: 130px; 
     }
 
@@ -106,7 +100,7 @@ header
         left: 0;
     }
     100% {
-        top: 95px; 
+        top: 265px; 
         left: 100px; 
     }
 
@@ -117,7 +111,7 @@ header
         left: 0;
     }
     100% {
-        top: 260px; 
+        top: 430px; 
         left: 250px; 
     }
 
@@ -234,7 +228,7 @@ left: 45vw;
         right: 400px;
         Valores Anteriores ao Teste
         */
-        top: 40px;
+        top: 210px;
         right: 24vw;
         /* Valores Posteriores ao Teste */
     }

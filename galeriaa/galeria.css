@@ -8,13 +8,19 @@ h1 {
   font-family: 'Caveat', cursive;
 }
 
+#corzinha
+{
+  background: linear-gradient(rgb(231, 222, 224), white);
+}
+
 .container {
-  margin-top: 110vh;
-  width: 70%;
+  margin-top: 220vh;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 video{
