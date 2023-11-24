@@ -295,7 +295,7 @@ background-color: #45668a;
 }
 
 .depo-container {
-    width: 80%;
+    width: 90%;
     height: 800px;
     margin: 0 auto;
     border-radius: 30px;
@@ -306,7 +306,7 @@ background-color: #45668a;
 }
 
 .depoUnit {
-    background: linear-gradient(#45668a, #35ba99);
+    background: linear-gradient(#45668a, white);
     border-radius: 20px;
     margin: 12px;
     position: relative;
@@ -319,11 +319,11 @@ background-color: #45668a;
 }
 
 .media1, .media3 {
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px;
     float: left;
 }
 .media2, .media4 {
-    border-radius: 0 20px 20px 0;
+    border-radius: 20px;
     float: right;
 }
 
@@ -333,7 +333,7 @@ background-color: #45668a;
     font-family: 'Handlee', cursive;
     color: #f2f2f2;
     top: 10%;
-    right: 18.6%;
+    right: 20%;
 }
 #depo1 > h3, #depo3 > h3 {
     position: absolute;
@@ -341,7 +341,7 @@ background-color: #45668a;
     font-size: 22px;
 
     top: 50%;
-    right: 2%;
+    right: 7%;
 }
 #depo1 > img.stars, #depo3 > img.stars {
     position: absolute;
@@ -349,7 +349,7 @@ background-color: #45668a;
     height: auto;
 
     top: 6%;
-    right: 16.8%;
+    right: 16.5%;
 }
 
 #depo2 > h1, #depo4 > h1 {
@@ -359,7 +359,7 @@ background-color: #45668a;
     color: #f2f2f2;
 
     top: 10%;
-    left: 18.6%;
+    left: 20%;
 }
 #depo2 > h3, #depo4 > h3 {
     position: absolute;
@@ -367,7 +367,7 @@ background-color: #45668a;
     font-size: 22px;
 
     top: 50%;
-    left: 2%;
+    left: 7%;
 }
 #depo2 > img.stars, #depo4 > img.stars {
     position: absolute;
@@ -375,7 +375,7 @@ background-color: #45668a;
     height: auto;
 
     top: 6%;
-    left: 16.8%;
+    left: 16.5%;
 }
 
 .depoVid {
