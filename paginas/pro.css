@@ -36,7 +36,6 @@ section{
     border: 1px solid #c4beff;
     border-radius: 50%;
     position: absolute;
-    right: 60vw;
     margin-top: -19vh;
    
    
@@ -207,3 +206,53 @@ img.sexy {
     margin-bottom: 30px;
     
 }
+
+/* RESPONSIVIDADE */
+section {
+    /* background-color: rgb(255, 255, 255) ; */
+    background-color: rgb(255, 255, 255);
+    position: relative;}
+  .menu {
+    /* left: 34.5vw; */
+    left: 48%;
+    /* right: -22px; */}
+  .circulo {
+    right: 44.5%;
+    /* transform: translate(15%, 0); */
+  }
+
+  .linha-horizontal3 {
+    /* top: 147vh; */
+    top: 89vh;}
+  #fraseefeito {
+    /* top: 152vh; */
+    top: 95vh;}
+  .pri {
+    /* top: 130vh; */
+    top: 70vh;}
+  #pqfzr {
+    /* top: 108vh; */
+    /* right: 100px; */
+    top: 74vh;
+    right: 1vw;
+    /* width: 450px; */
+    width: 25vw;}
+  #tecpro2 {
+    /* right: 50px; */
+    right: 2vw;
+    z-index: 9;}
+  #seta {
+    /* top: 164vh; */
+    top: 106vh;}
+  .caixa {
+    /* top: 178vh; */
+    /* left: 25%; */
+    top: 118vh;
+    left: 22vw;}
+
+    
+    @media (min-width: 1610px){
+        .circulo{
+            transform: translate(-25%, -2%);
+        }
+    }

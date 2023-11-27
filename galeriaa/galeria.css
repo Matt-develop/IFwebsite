@@ -8,16 +8,10 @@ h1 {
   font-family: 'Caveat', cursive;
 }
 
-#corzinha
-{
-  background: linear-gradient(rgb(231, 222, 224), white);
-}
-
 .container {
-  margin-top: 150vh;
+  margin-top: 168vh;
   width: 80%;
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   
@@ -472,4 +466,31 @@ right: 0 auto ;
 img {
   max-width: 100%;
   vertical-align: top;
+}
+
+/* RESPONSIVIDADE */
+#footer {
+  /* justify-content: center; */
+  /* background-color: #00420c; */
+  /* font-family: "open_sansregular",'Open Sans',Arial,Helvetica,sans-serif; */
+  /* height: 556px; */
+  /* font-size: .9em; */
+  position: absolute;
+  width: 100%;
+  display: flex;
+  /* min-height: 0; */
+  top: 370vh;
+}
+#final {
+  /* justify-content: space-around; */
+  /* background-color: #002907; */
+  /* padding: 25px 0; */
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 425vh;
+}
+.container {
+  /* margin-top: 168vh; */
+  margin-top: 174vh;
 }
