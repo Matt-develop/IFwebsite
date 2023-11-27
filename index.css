@@ -201,9 +201,10 @@ z-index: 1;
 
 #cont2
 { 
-top: 30vh;
 z-index: 1;
-left: 45vw;
+top: 50vh;
+right: 15vw;
+position: absolute;
 }
 
 #imgcurso 
@@ -252,7 +253,7 @@ left: 45vw;
 #cont1
 {
 z-index: 1;
-left: 10vw;
+left: 7vw;
 }
 
 #imgcm
@@ -278,21 +279,22 @@ display: flex ;
 width: 100%;
 height: 100%;
 background-color: #45668a;
+position: relative;
 }
 
 #tecpro {
     position: absolute;
-    right: 80px;
-    top: auto;
     width: 780px;
     height: auto;
+    right: -2vw;
+    top: 5vh;
 }
 
 /* depoimentos */
 .depoimentos {
     width: 100%;
     position: absolute;
-    top: 320vh;
+    top: 415vh;
 }
 
 .depoimentos h1 {
@@ -318,11 +320,12 @@ background-color: #45668a;
     border-radius: 20px;
     margin: 12px;
     position: relative;
+    height: 35vh;
 }
 
 .media1, .media2, .media3, .media4 {
-    width: 280px;
-    height: 420px;
+    width: auto;
+    height: 35vh;
     cursor: pointer;
 }
 
@@ -337,19 +340,19 @@ background-color: #45668a;
 
 #depo1 > h1, #depo3 > h1 {
     position: absolute;
-    font-size: 35px;
+    font-size: 2.5vw;
     font-family: 'Handlee', cursive;
     color: #f2f2f2;
     top: 10%;
-    right: 20%;
+    right: 7vw;
 }
 #depo1 > h3, #depo3 > h3 {
     position: absolute;
     font-family: 'Handlee', cursive;
-    font-size: 22px;
+    font-size: 1.3vw;
 
     top: 50%;
-    right: 7%;
+    right: 2.5vw;
 }
 #depo1 > img.stars, #depo3 > img.stars {
     position: absolute;
@@ -357,25 +360,25 @@ background-color: #45668a;
     height: auto;
 
     top: 6%;
-    right: 16.5%;
+    right: 7.5vw;
 }
 
 #depo2 > h1, #depo4 > h1 {
     position: absolute;
-    font-size: 35px;
+    font-size: 2.5vw;
     font-family: 'Handlee', cursive;
     color: #f2f2f2;
 
     top: 10%;
-    left: 20%;
+    left: 7vw;
 }
 #depo2 > h3, #depo4 > h3 {
     position: absolute;
     font-family: 'Handlee', cursive;
-    font-size: 22px;
+    font-size: 1.3vw;
 
     top: 50%;
-    left: 7%;
+    left: 2.5vw;
 }
 #depo2 > img.stars, #depo4 > img.stars {
     position: absolute;
@@ -383,7 +386,7 @@ background-color: #45668a;
     height: auto;
 
     top: 6%;
-    left: 16.5%;
+    left: 7.5vw;
 }
 
 .depoVid {
@@ -393,3 +396,35 @@ background-color: #45668a;
     position: fixed;
     z-index: 9;
 }
+
+/* RESPONSIVIDADE */
+
+#abrirPopup1 {
+    /* bottom: -1400px ; */
+    bottom: -1400px;
+    top: 149vh;}
+  #abrirPopup2 {
+    /* bottom: -1500px ; */
+    bottom: -1500px;
+    top: 161vh;}
+  #abrirPopup3 {
+    /* bottom: -2000px ; */
+    bottom: -2000px;
+    top: 230vh;}
+  #abrirPopup4 {
+    /* bottom: -1900px ; */
+    bottom: -1900px;
+    top: 218vh;}
+  .linha-horizontal {
+    top: 163vh;}
+  #cam {
+    top: 145vh;}
+  .linha-horizontal2 {
+    top: 233vh;}
+  #pcur {
+    top: 168vh;}
+  #cur {
+    top: 215vh;}
+  #pcam {
+    top: 238vh;
+  }
