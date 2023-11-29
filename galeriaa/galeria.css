@@ -9,12 +9,11 @@ h1 {
 }
 
 .container {
-  margin-top: 168vh;
-  width: 100%;
+  margin-top: 174vh;
+  width: 97%;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 video{
@@ -160,19 +159,11 @@ right: 0 auto ;
   margin-top: 50px;
   display: inline-flex;
   width: 100%;
-}
-
-img {
-  max-width: 100%;
-  vertical-align: top;
+  justify-content: flex-end;
 }
 
 /*----------------------------------------------------------------------------------------------*/
 
-img {
-  max-width: 100%;
-  vertical-align: top;
-}
 #hahah3
 {
   border-radius: 20px 20px 0 0;
@@ -310,20 +301,11 @@ right: 0 auto ;
   margin-top: 50px;
   display: inline-flex;
   width: 100%;
-}
-
-img {
-  max-width: 100%;
-  vertical-align: top;
+  justify-content: flex-end;
 }
 
 /*----------------------------------------------------------------------------------------------*/
 
-
-img {
-  max-width: 100%;
-  vertical-align: top;
-}
 #hahah6
 {
   border-radius: 20px 20px 0 0;
@@ -384,7 +366,7 @@ img {
     right: 0;
   margin-right: 100px;
   font-size: 60px;
-  position: absolute;
+  /*! position: absolute; */
 }
 #sec6
 {
@@ -411,7 +393,7 @@ img {
 }
 
 .gallery5 {
-right: -5vw;
+/*! right: -5vw; */
   display: flex;
   margin: 15px;
   margin-bottom: 5px;
@@ -450,9 +432,7 @@ right: -5vw;
 
 .flamengo5
 {
-  display: flex;
-  
-    
+  display: flex;  
   margin-right: 350px;
   font-size: 60px;
   margin-left: 50px;
@@ -462,6 +442,7 @@ right: -5vw;
   margin-top: 50px;
   display: inline-flex;
   width: 100%;
+  justify-content: flex-end;
 }
 
 img {
@@ -490,10 +471,6 @@ img {
   position: absolute;
   width: 100%;
   top: 435vh;
-}
-.container {
-  /* margin-top: 168vh; */
-  margin-top: 174vh;
 }
 
 #container-voltar {
