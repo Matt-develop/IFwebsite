@@ -10,7 +10,7 @@ h1 {
 
 .container {
   margin-top: 168vh;
-  width: 80%;
+  width: 100%;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -384,6 +384,7 @@ img {
     right: 0;
   margin-right: 100px;
   font-size: 60px;
+  position: absolute;
 }
 #sec6
 {
@@ -410,7 +411,7 @@ img {
 }
 
 .gallery5 {
-right: 0 auto ;
+right: -5vw;
   display: flex;
   margin: 15px;
   margin-bottom: 5px;
@@ -479,7 +480,7 @@ img {
   width: 100%;
   display: flex;
   /* min-height: 0; */
-  top: 370vh;
+  top: 380vh;
 }
 #final {
   /* justify-content: space-around; */
@@ -488,9 +489,13 @@ img {
   display: flex;
   position: absolute;
   width: 100%;
-  top: 425vh;
+  top: 435vh;
 }
 .container {
   /* margin-top: 168vh; */
   margin-top: 174vh;
+}
+
+#container-voltar {
+  margin-left: 20px;
 }

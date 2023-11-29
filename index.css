@@ -21,7 +21,7 @@
 
 .menu
 {
-    width: 50%;
+    /*! width: 50%; */
     align-items: right;
 }
 
@@ -211,7 +211,7 @@ position: absolute;
 {
     animation: movecurso 3s ease-in-out forwards;
     position: absolute;
-    max-width: 50%;
+    max-width: 50vw;
     height: auto;
 }
 
@@ -221,8 +221,8 @@ position: absolute;
 
 @keyframes movecurso {
     0% {
-        top: 0;
-        right: -500px;
+        top: -5vh;
+        left: 100vw;
     }
     100% {
         /*
@@ -230,8 +230,8 @@ position: absolute;
         right: 400px;
         Valores Anteriores ao Teste
         */
-        top: 210px;
-        right: 24vw;
+        top: 32.5vh;
+        left: 30vw;
         /* Valores Posteriores ao Teste */
     }
 }

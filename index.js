@@ -49,7 +49,7 @@ depoUnits.forEach(depo => {
             document.querySelector('.media' + mediaNum).remove();
             var img = document.createElement("img");
 
-            img.src = "./imagens/depoimentos/foto" + mediaNum + ".png";
+            img.src = "./imagens/depoimentos/foto" + mediaNum + ".webp";
             img.width = 320;
             img.height = 240;
             img.className = "media" + mediaNum;
