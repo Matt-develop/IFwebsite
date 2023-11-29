@@ -20,9 +20,9 @@
         font-family: "open_sansregular",'Open Sans',Arial,Helvetica,sans-serif;
         height: 556px;
         font-size: .9em;
-    color: #fff;
-    line-height: .9em;
-
+        color: #fff;
+        line-height: .9em;
+        display: flex;
 
     }
 

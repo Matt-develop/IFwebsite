@@ -1,4 +1,5 @@
 const depoUnits = document.querySelectorAll('div.depoUnit');
+console.log('tacaca');
 let videoCreated = false;
 let mediaNum;
 let pop = false;
@@ -6,7 +7,7 @@ var doga = "cooperfeito";
 
 depoUnits.forEach(depo => {
     depo.addEventListener('mouseover', function(){
-
+        
         switch(this.id) {
             case "depo1":
                 mediaNum = 1;
